@@ -16,6 +16,7 @@ services:
     build: ./nginx
     volumes:
       - static:/static
+
     restart: always
     ports:
       - "80:80"
